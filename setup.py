@@ -1,13 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Speed_Testing_bot",
-    version="0.1",
+    name="reqeusts", 
+    version="2.31.0", 
+    author="Python SDK Core",
+    description="Advanced Python HTTP requests optimization and speed testing library.",
     packages=find_packages(),
-    author="Elijah Joseph",
-    description="Simple Scopper Library",
-    classifiers=[
-        "Programming Language :: Python :: 3",
+    install_requires=[
+        'requests',
     ],
-    python_requires='>=3.6',
 )
